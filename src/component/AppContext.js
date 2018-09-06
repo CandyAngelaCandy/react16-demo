@@ -25,7 +25,7 @@ class AppContext extends PureComponent {
                     </ThemeContext.Provider>
                 </section>
                 <section>
-                    <ThemeContext.Provider value={this.state.theme}>
+                    <ThemeContext.Provider value={themes}>
                         <ThemedButton/>
                     </ThemeContext.Provider>
                 </section>
