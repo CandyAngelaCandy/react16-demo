@@ -27,8 +27,6 @@ export function withSubscription(WrappedComponent, selectData) {
         }
 
         render() {
-            // ... 并使用新数据渲染被包装的组件!
-            // 请注意，我们可能还会传递其他属性
             return <WrappedComponent data={this.state.data} {...this.props} />;
         }
     };
